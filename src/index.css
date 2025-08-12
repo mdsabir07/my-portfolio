@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&family=Fira+Code:wght@400&display=swap');
 @import "tailwindcss";
-/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -18,5 +17,9 @@ body {
   --font-fira-code: "Fira Code", monospace;
   --color-primary: #0074D9;
   --color-secondary: #2E8DFF;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 

@@ -1,21 +1,31 @@
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
-// import Logo from '../../assets/logo.png';
-import { useState } from 'react';
-import { Link } from 'react-router'; // For routing links (use in-project detail pages)
-import Logo from '../Logo/Logo';
+import Logo from '../../assets/logo.png';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 20);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
     const closeMenu = () => setIsMenuOpen(false);
 
     // links
     const navLinks = [
-        { name: 'Home', href: '#home', isExternal: false },
+        { name: 'Intro', href: '#intro', isExternal: false },
         { name: 'About', href: '#about', isExternal: false },
-        { name: 'Services', href: '#services', isExternal: false },
-        { name: 'Project', href: '#project', isExternal: false },
+        { name: 'Skills', href: '#skills', isExternal: false },
+        { name: 'Educations', href: '#educations', isExternal: false },
+        { name: 'Experiences', href: '#experiences', isExternal: false },
+        { name: 'Projects', href: '#projects', isExternal: false },
         { name: 'Contact', href: '#contact', isExternal: false },
     ];
 
@@ -45,11 +55,12 @@ const Navbar = () => {
         </nav>
     </>
     return (
-        <header className="p-4">
-            <div className="container flex justify-between h-16 mx-auto max-w-6xl px-3 md:px-10">
-
-                <Link to="/"><Logo /></Link>
-                {/* <Link to="/"><img src={Logo} alt="" className='w-40' /></Link> */}
+        <header
+            className={`fixed top-0 left-0 right-0 py-3 z-50 transition-colors duration-300 ${scrolled ? "bg-white shadow-md dark:bg-gray-900" : "bg-transparent"
+                }`}
+        >
+            <div className="container flex justify-between h-20 mx-auto max-w-6xl px-3 md:px-10">
+                <Link to="/"><img src={Logo} alt="" className='w-36' /></Link>
                 {/* Desktop Menu */}
                 {navLinksLarge}
                 <button

@@ -6,25 +6,25 @@ const SocialLinks = () => {
     const socialProfiles = [
         {
             name: 'GitHub',
-            url: 'https://github.com/sabirul-islam',
+            url: 'https://github.com/mdsabir07',
             icon: <FaGithub className="icon-sm" />,
             color: 'hover:text-gray-800 dark:hover:text-gray-200' // GitHub's color
         },
         {
             name: 'LinkedIn',
-            url: 'https://linkedin.com/in/sabirul-islam',
+            url: 'https://linkedin.com/in/sabir07',
             icon: <FaLinkedinIn className="icon-sm" />,
             color: 'hover:text-blue-600 dark:hover:text-blue-400' // LinkedIn blue
         },
         {
             name: 'Twitter',
-            url: 'https://twitter.com/sabirul_dev',
+            url: 'https://twitter.com/@mdsabir07',
             icon: <FaXTwitter className="icon-sm" />,
             color: 'hover:text-sky-500 dark:hover:text-sky-400' // Twitter blue
         },
         {
-            name: 'Facebook',
-            url: 'https://facebook.com/sabirul.islam.pro',
+            name: 'WordPress',
+            url: 'https://profiles.wordpress.org/mdsabir07/',
             icon: <FaWordpress className="icon-sm" />,
             color: 'hover:text-blue-700 dark:hover:text-blue-500' // Facebook blue
         }

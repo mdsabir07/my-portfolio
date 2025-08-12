@@ -1,7 +1,7 @@
 import { FaUniversity, FaSchool, FaBookOpen } from 'react-icons/fa';
 
 const Educations = () => (
-  <section id="education" className="py-16 px-4 bg-white dark:bg-gray-900">
+  <section id="educations" className="py-16 px-4 bg-white dark:bg-gray-900">
     <div className="container mx-auto max-w-5xl px-6 md:px-10">
       <h2
         className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"

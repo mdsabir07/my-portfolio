@@ -6,18 +6,22 @@ import DesignationIntro from "./components/DesignationIntro/DesignationIntro"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import ProjectCard from "./components/Projects/ProjectCard/ProjectCard"
+import ContactInfo from "./components/ContactInfo/ContactInfo"
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <DesignationIntro />
-      <AboutMe />
-      <Skills />
-      <Educations />
-      <Experiences />
-      <ProjectCard />
+      <Navbar />
+      <main className="pt-16 sm:pt-30">
+        <DesignationIntro />
+        <AboutMe />
+        <Skills />
+        <Educations />
+        <Experiences />
+        <ProjectCard />
+        <ContactInfo />
+      </main>
       <Footer />
     </>
   )

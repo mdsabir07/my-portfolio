@@ -4,7 +4,7 @@ import {
 import { SiFiverr, SiUpwork, SiFreelancer } from 'react-icons/si';
 
 const Experiences = () => (
-  <section id="experience" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
+  <section id="experiences" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
     <div className="container mx-auto max-w-5xl px-6 md:px-10">
       <h2
         className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"

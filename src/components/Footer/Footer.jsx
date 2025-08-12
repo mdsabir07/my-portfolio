@@ -16,10 +16,10 @@ const Footer = () => {
                         <a target='_blank' className='hover:text-primary' href="https://linkedin.com/in/sabir07"><FaLinkedinIn /></a>
                     </li>
                     <li>
-                        <a target='_blank' className='hover:text-primary' href="https://linkedin.com/mdsabir07"><FaGithub /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://github.com/mdsabir07"><FaGithub /></a>
                     </li>
                     <li>
-                        <a target='_blank' className='hover:text-primary' href="https://linkedin.com/@mdsabir07"><FaXTwitter /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://twitter.com/@mdsabir07"><FaXTwitter /></a>
                     </li>
                     <li>
                         <a target='_blank' className='hover:text-primary' href="https://profiles.wordpress.org/mdsabir07/"><FaWordpress /></a>
