@@ -25,7 +25,7 @@ const DesignationIntro = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between  px-10 gap-12">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between max-w-6xl px-3 md:px-10 gap-12">
         {/* Text Content */}
         <div className="md:w-1/2 space-y-6">
           <motion.h1 

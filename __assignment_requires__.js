@@ -43,11 +43,11 @@ Task Requirements:
 
 -Write a detailed introduction about yourself, including:
 
--Your programming journey.
+-My programming journey. I'm in this field since 2017 and continue
 
--The type of work you enjoy.
+-The type of work I enjoy. 
 
--Any hobbies or interests outside of programming (e.g., sports, painting).
+-Any hobbies or interests outside of programming (sports, traveling, reading books).
 
 -Showcase your personality in this section.
 

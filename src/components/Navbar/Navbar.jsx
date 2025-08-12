@@ -46,7 +46,7 @@ const Navbar = () => {
     </>
     return (
         <header className="p-4">
-            <div className="container flex justify-between h-16 mx-auto px-10">
+            <div className="container flex justify-between h-16 mx-auto max-w-6xl px-3 md:px-10">
 
                 <Link to="/"><Logo /></Link>
                 {/* <Link to="/"><img src={Logo} alt="" className='w-40' /></Link> */}

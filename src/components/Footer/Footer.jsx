@@ -6,7 +6,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
     return (
         <footer className="px-4 py-8">
-            <div className="container flex flex-wrap items-center justify-center mx-auto px-10 space-y-4 sm:justify-between sm:space-y-0">
+            <div className="container flex flex-wrap items-center justify-center mx-auto max-w-6xl px-3 md:px-10 space-y-4 sm:justify-between sm:space-y-0">
                 <div className="flex flex-col">
                     <Link to="/"><img src={Logo} alt="" className='w-40' /></Link>
                     <div className="py-6 text-sm text-center dark:text-gray-600">&copy; CoderDevsBd. All rights reserved.</div>
