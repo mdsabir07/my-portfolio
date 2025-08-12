@@ -6,7 +6,7 @@ export default function ContactInfo() {
             <div className="container mx-auto px-3 max-w-3xl text-center">
                 {/* Heading */}
                 <h2 className="text-3xl font-bold font-space-grotesk text-gray-800 dark:text-white mb-6">
-                    Get in Touch
+                    Get in <span className="text-blue-600 dark:text-blue-400">Touch</span>
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 mb-8">
                     I’d love to hear from you! Feel free to reach out for any questions,
