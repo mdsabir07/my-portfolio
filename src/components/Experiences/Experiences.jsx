@@ -1,5 +1,7 @@
-import { FaBriefcase, FaClock, FaGlobe, FaBuilding } from 'react-icons/fa';
-import { SiFiverr, SiUpwork, SiFreelancer, SiPeopleperhour } from 'react-icons/si';
+import {
+  FaClock, FaGlobe, FaBuilding
+} from 'react-icons/fa';
+import { SiFiverr, SiUpwork, SiFreelancer } from 'react-icons/si';
 
 const Experiences = () => (
   <section id="experience" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
@@ -45,23 +47,52 @@ const Experiences = () => (
             </h3>
           </div>
           <p className="text-sm">Full Stack / CMS Developer</p>
+
           <div className="flex flex-wrap gap-3 items-center text-sm text-gray-600 dark:text-gray-400">
-            <span className="flex items-center gap-1">
-              <SiFiverr className="text-[#1DBF73]" /> Since 2017
-            </span>
-            <span className="flex items-center gap-1">
-              <SiPeopleperhour className="text-[#F48024]" /> Since 2018
-            </span>
-            <span className="flex items-center gap-1">
-              <SiUpwork className="text-[#6fda44]" /> Since 2020
-            </span>
-            <span className="flex items-center gap-1">
-              <SiFreelancer className="text-blue-500" /> Outside Platforms
-            </span>
+            <a
+              href="#"
+              title="Fiverr - Global Freelance Marketplace"
+              className="flex items-center gap-1 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiFiverr className="text-[#1DBF73] text-4xl" /> Since 2017
+            </a>
+
+            <a
+              href="#"
+              title="PeoplePerHour - Freelance Marketplace"
+              className="flex items-center gap-1 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-orange-500 text-lg">🕐</span> PPH – Since 2018
+            </a>
+
+            <a
+              href="#"
+              title="Upwork - Freelance Marketplace"
+              className="flex items-center gap-1 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiUpwork className="text-[#6fda44] text-lg" /> Since 2020
+            </a>
+
+            <a
+              href="#"
+              title="Freelancer - Global Freelance Platform"
+              className="flex items-center gap-1 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiFreelancer className="text-blue-500 text-lg" /> Outside Platforms
+            </a>
           </div>
+
           <p className="text-sm mt-2">
-            I’ve been working globally as a freelancer with clients from various industries —
-            providing web development, CMS customization, e-commerce, SEO, and server-side solutions.
+            I’ve been working globally as a freelancer with clients from various industries — providing web development,
+            CMS customization, e-commerce, SEO, and server-side solutions.
           </p>
         </div>
       </div>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Marathon Management System",
+        "image": "/marathon.png",
+        "detailsUrl": "/projects/marathon-management-system",
+        "techStack": [
+            "React",
+            "Firebase",
+            "Tailwind CSS"
+        ],
+        "description": "A platform for managing marathon events, including participant registration, race tracking, and results publishing.",
+        "liveLink": "https://assign11-marathon.web.app/",
+        "githubLink": "https://github.com/mdsabir07/marathon-management-system",
+        "challenges": "Implementing real-time data sync and authentication with Firebase while maintaining responsive UI across devices.",
+        "futurePlans": "Add admin dashboards with analytics and enhance user profiles with more race statistics."
+    },
+    {
+        "id": 2,
+        "name": "Blood Donation Platform",
+        "image": "/blood-donate.png",
+        "detailsUrl": "/projects/blood-donation-platform",
+        "techStack": [
+            "React",
+            "Firebase",
+            "Bootstrap"
+        ],
+        "description": "A platform that connects blood donors and recipients, allowing users to request or offer blood donations.",
+        "liveLink": "https://blood-donate-49988.web.app/",
+        "githubLink": null,
+        "challenges": "Ensuring quick search functionality for available donors based on blood type and location.",
+        "futurePlans": "Integrate geolocation and automated notifications for urgent blood needs."
+    },
+    {
+        "id": 3,
+        "name": "ABZ Innovation Corporate Website",
+        "image": "/abz-inovation.png",
+        "detailsUrl": "/projects/abz-innovation",
+        "techStack": [
+            "WordPress",
+            "Elementor",
+            "Custom Theme Development"
+        ],
+        "description": "A professional corporate website showcasing ABZ Innovation's services, portfolio, and contact options.",
+        "liveLink": "https://abzinnovation.com/",
+        "githubLink": null,
+        "challenges": "Maintaining high performance and SEO optimization while implementing a fully customized WordPress theme.",
+        "futurePlans": "Add a blog section and integrate a CRM for client inquiries."
+    }
+]
