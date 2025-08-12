@@ -1,31 +1,47 @@
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
-import { Link, NavLink } from 'react-router';
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.png';
 import { useState } from 'react';
+import { Link } from 'react-router'; // For routing links (use in-project detail pages)
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    }
+
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+    const closeMenu = () => setIsMenuOpen(false);
+
+    // links
+    const navLinks = [
+        { name: 'Home', href: '#home', isExternal: false },
+        { name: 'About', href: '#about', isExternal: false },
+        { name: 'Services', href: '#services', isExternal: false },
+        { name: 'Project', href: '#project', isExternal: false },
+        { name: 'Contact', href: '#contact', isExternal: false },
+    ];
 
     const navLinksLarge = <>
-        <ul className="items-stretch hidden space-x-3 md:flex">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/services">Services</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><ThemeToggle /></li>
-        </ul>
+        <nav className="hidden md:flex items-center space-x-6">
+            {navLinks.map(({ name, href }) => (
+                <a key={name} href={href} className="hover:text-primary">
+                    {name}
+                </a>
+            ))}
+            <ThemeToggle />
+        </nav>
     </>
     const navLinksSmall = <>
-        <div className="md:hidden px-4 pt-2 pb-4 space-y-2">
-            <NavLink to="/" className="block">Home</NavLink>
-            <NavLink to="/about" className="block">About</NavLink>
-            <NavLink to="/services" className="block">Services</NavLink>
-            <NavLink to="/contact" className="block">Contact</NavLink>
+        <nav className="md:hidden px-4 pt-2 pb-4 space-y-2 shadow-xl rounded-md bg-white dark:bg-gray-900">
+            {navLinks.map(({ name, href }) => (
+                <a
+                    key={name}
+                    href={href}
+                    onClick={closeMenu}
+                    className="block hover:text-primary"
+                >
+                    {name}
+                </a>
+            ))}
             <ThemeToggle />
-        </div>
+        </nav>
     </>
     return (
         <header className="p-4">
@@ -35,12 +51,22 @@ const Navbar = () => {
                 {/* Desktop Menu */}
                 {navLinksLarge}
                 <button
-                    className="flex justify-end p-4 md:hidden focus:outline-none"
                     onClick={toggleMenu}
+                    className="md:hidden focus:outline-none"
                     aria-label="Toggle Menu"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M4 6h16M4 12h16M4 18h16"
+                        />
                     </svg>
                 </button>
             </div>
