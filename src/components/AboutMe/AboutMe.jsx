@@ -3,15 +3,15 @@ import { FiCode, FiGlobe, FiBook, FiCpu, FiActivity } from 'react-icons/fi';
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-16 px-4 bg-white dark:bg-gray-900">
-      <div className="container mx-auto max-w-6xl px-3 md:px-10">
+    <section id="about" className="py-8 bg-white dark:bg-gray-900">
+      <div className="container mx-auto max-w-7xl px-3 md:px-10">
         {/* Section Title */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900 dark:text-white font-space"
+          className="text-3xl md:text-4xl font-bold text-center mb-5 sm:mb-10 text-gray-900 dark:text-white font-space-grotesk"
         >
           About <span className="text-blue-600 dark:text-blue-400">Me</span>
         </motion.h2>
@@ -91,7 +91,7 @@ const AboutMe = () => {
 
             {/* Tech Stack */}
             <div className="mt-6">
-              <h3 className="text-center text-md font-semibold mb-3 text-gray-800 dark:text-gray-200 font-space">
+              <h3 className="text-center text-md font-semibold mb-3 text-gray-800 dark:text-gray-200 font-space-grotesk">
                 Tech Stack
               </h3>
               <div className="flex flex-wrap justify-center gap-2 font-inter">

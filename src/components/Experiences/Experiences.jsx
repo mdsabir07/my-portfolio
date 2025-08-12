@@ -4,11 +4,10 @@ import {
 import { SiFiverr, SiUpwork, SiFreelancer } from 'react-icons/si';
 
 const Experiences = () => (
-  <section id="experiences" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-    <div className="container mx-auto max-w-5xl px-6 md:px-10">
+  <section id="experiences" className="py-10 bg-gray-50 dark:bg-gray-900">
+    <div className="container mx-auto max-w-5xl px-2 sm:px-6 md:px-10">
       <h2
-        className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"
-        style={{ fontFamily: 'var(--font-space-grotesk)' }}
+        className="text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 text-gray-900 dark:text-white font-space-grotesk"
       >
         Professional Experience
       </h2>
@@ -19,8 +18,7 @@ const Experiences = () => (
           <div className="flex items-center gap-3">
             <FaBuilding className="text-blue-600 dark:text-blue-400" />
             <h3
-              className="text-xl font-semibold"
-              style={{ fontFamily: 'var(--font-space-grotesk)' }}
+              className="text-xl font-semibold font-space-grotesk"
             >
               Omnitechtion Solutions
             </h3>
@@ -40,8 +38,7 @@ const Experiences = () => (
           <div className="flex items-center gap-3">
             <FaGlobe className="text-green-600 dark:text-green-400" />
             <h3
-              className="text-xl font-semibold"
-              style={{ fontFamily: 'var(--font-space-grotesk)' }}
+              className="text-xl font-semibold font-space-grotesk"
             >
               Freelance Marketplace Work
             </h3>

@@ -6,19 +6,18 @@ import {
 import { FaTools, FaServer, FaShieldAlt } from 'react-icons/fa';
 
 const Skills = () => (
-  <section id="skills" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-    <div className="container mx-auto max-w-6xl px-3 md:px-10">
+  <section id="skills" className="py-10 bg-gray-50 dark:bg-gray-900">
+    <div className="container mx-auto max-w-7xl px-3 md:px-10">
       <h2
-        className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"
-        style={{ fontFamily: 'var(--font-space-grotesk)' }}
+        className="text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-10 text-gray-900 dark:text-white font-space-grotesk"
       >
         Skills & Technologies
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-gray-800 dark:text-gray-300 font-inter">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 text-gray-800 dark:text-gray-300 font-inter">
         {/* Frontend */}
         <div>
-          <h3 className="text-xl font-semibold mb-4" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+          <h3 className="text-md sm:text-xl font-semibold mb-4 font-space-grotesk">
             Frontend Development
           </h3>
           <ul className="space-y-2">
@@ -32,7 +31,7 @@ const Skills = () => (
 
         {/* Backend */}
         <div>
-          <h3 className="text-xl font-semibold mb-4" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+          <h3 className="text-md sm:text-xl font-semibold mb-4 font-space-grotesk">
             Backend & APIs
           </h3>
           <ul className="space-y-2">
@@ -47,7 +46,7 @@ const Skills = () => (
 
         {/* CMS / Platforms */}
         <div>
-          <h3 className="text-xl font-semibold mb-4" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+          <h3 className="text-md sm:text-xl font-semibold mb-4 font-space-grotesk">
             CMS & Platforms
           </h3>
           <ul className="space-y-2">
@@ -60,7 +59,7 @@ const Skills = () => (
 
         {/* Tools / Server */}
         <div>
-          <h3 className="text-xl font-semibold mb-4" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+          <h3 className="text-md sm:text-xl font-semibold mb-4 font-space-grotesk">
             Dev Tools & Server
           </h3>
           <ul className="space-y-2">

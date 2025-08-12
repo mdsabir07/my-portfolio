@@ -1,11 +1,10 @@
 import { FaUniversity, FaSchool, FaBookOpen } from 'react-icons/fa';
 
 const Educations = () => (
-  <section id="educations" className="py-16 px-4 bg-white dark:bg-gray-900">
+  <section id="educations" className="py-10 bg-white dark:bg-gray-900">
     <div className="container mx-auto max-w-5xl px-6 md:px-10">
       <h2
-        className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"
-        style={{ fontFamily: 'var(--font-space-grotesk)' }}
+        className="text-2xl md:text-4xl font-bold font-space-grotesk text-center mb-8 sm:mb-12 text-gray-900 dark:text-white"
       >
         Educational Qualification
       </h2>
@@ -14,8 +13,7 @@ const Educations = () => (
         {/* Left Side – Education Details */}
         <div className="space-y-3">
           <h3
-            className="text-xl font-semibold mb-4"
-            style={{ fontFamily: 'var(--font-space-grotesk)' }}
+            className="text-lg sm:text-xl font-space-grotesk font-semibold mb-4"
           >
             Master of Social Sciences (MSS)
           </h3>

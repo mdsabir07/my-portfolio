@@ -2,10 +2,10 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactInfo() {
     return (
-        <section id="contact" className="py-12 bg-gray-100 dark:bg-gray-900">
+        <section id="contact" className="py-10 bg-gray-100 dark:bg-gray-900">
             <div className="container mx-auto px-3 max-w-3xl text-center">
                 {/* Heading */}
-                <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">
+                <h2 className="text-3xl font-bold font-space-grotesk text-gray-800 dark:text-white mb-6">
                     Get in Touch
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 mb-8">
@@ -14,11 +14,11 @@ export default function ContactInfo() {
                 </p>
 
                 {/* Contact List */}
-                <div className="flex items-center justify-center gap-5">
+                <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-5">
                     {/* Email */}
                     <a
                         href="mailto:sabirdev07@gmail.com"
-                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow p-4 rounded-lg hover:shadow-md transition"
+                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow px-2 md:px-6 py-2 md:py-3 rounded-lg hover:shadow-md transition"
                     >
                         <FaEnvelope className="text-blue-600 text-xl" />
                         <span className="text-gray-700 dark:text-gray-300">
@@ -29,7 +29,7 @@ export default function ContactInfo() {
                     {/* Phone */}
                     <a
                         href="tel:+8801719358451"
-                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow p-4 rounded-lg hover:shadow-md transition"
+                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow px-2 md:px-6 py-2 md:py-3 rounded-lg hover:shadow-md transition"
                     >
                         <FaPhoneAlt className="text-green-600 text-xl" />
                         <span className="text-gray-700 dark:text-gray-300">
@@ -42,7 +42,7 @@ export default function ContactInfo() {
                         href="https://wa.me/8801712766962"
                         target="_blank"
                         rel="noreferrer"
-                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow p-4 rounded-lg hover:shadow-md transition"
+                        className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow px-2 md:px-6 py-2 md:py-3 rounded-lg hover:shadow-md transition"
                     >
                         <FaWhatsapp className="text-green-500 text-xl" />
                         <span className="text-gray-700 dark:text-gray-300">

@@ -12,7 +12,8 @@ const DesignationIntro = () => {
     "React Specialist",
     "Node.js Expert",
     "Web Solutions Architect",
-    "WordPress and Shopify Specialist"
+    "WordPress and Shopify Specialist",
+    "Server and Website Management"
   ];
 
   // Animation for designation cycling
@@ -24,17 +25,17 @@ const DesignationIntro = () => {
   }, []);
 
   return (
-    <section id='intro' className="min-h-screen flex items-center justify-center px-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between max-w-6xl px-3 md:px-10 gap-12">
+    <section id='intro' className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between max-w-7xl px-3 md:px-10 gap-12">
         {/* Text Content */}
         <div className="md:w-1/2 space-y-6">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl font-bold text-primary"
+            className="text-3xl md:text-5xl font-bold font-space-grotesk"
           >
-            Hi, I'm <span className="underline decoration-wavy">Sabirul Islam</span>
+            Hi, I'm <span className="underline decoration-wavy text-primary">Sabirul Islam</span>
           </motion.h1>
           
           <motion.div
@@ -74,7 +75,7 @@ const DesignationIntro = () => {
           >
             <a 
               href="#contact" 
-              className="px-6 py-3 rounded-lg font-medium transition-all bg-primary hover:bg-secondary text-white"
+              className="px-2 md:px-6 py-2 md:py-3 rounded-lg font-medium transition-all bg-primary hover:bg-secondary text-white"
             >
               Get In Touch
             </a>
@@ -89,14 +90,14 @@ const DesignationIntro = () => {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 flex justify-center"
         >
-          <div className="relative w-sm sm:w-md h-sm sm:h-md object-cover rounded-full overflow-hidden border-4 border-indigo-300 dark:border-indigo-500">
+          <div className="relative w-xs sm:w-md h-xs sm:h-md object-cover rounded-full overflow-hidden border-4 border-indigo-300 dark:border-indigo-500">
             <img src={ProfilePhoto} alt="" />
             {/* Glow effect */}
             <div className="absolute inset-0 rounded-full shadow-[0_0_40px_10px_rgba(99,102,241,0.2)] dark:shadow-[0_0_40px_10px_rgba(99,102,241,0.3)] animate-pulse"></div>
           </div>
         </motion.div>
       </div>
-      <div className="absolute left-0 top-50">
+      <div className="absolute left-0 top-90 sm:top-50">
         <SocialLinks />
       </div>
     </section>

@@ -25,7 +25,7 @@ export default function ProjectDetails() {
         <>
             <Navbar />
             <section className="py-12 sm:py-20 bg-gray-50 dark:bg-gray-900">
-                <div className="container max-w-6xl mx-auto px-4">
+                <div className="container max-w-7xl mx-auto px-4">
                     {/* Image */}
                     <div className="mb-8">
                         <img
@@ -37,10 +37,10 @@ export default function ProjectDetails() {
 
 
                     <div>
-                        <h2 className="text-4xl font-bold mb-6 text-gray-800 dark:text-white">{project.name}</h2>
+                        <h2 className="text-4xl font-bold font-space-grotesk mb-6 text-gray-800 dark:text-white">{project.name}</h2>
                         {/* Tech Stack */}
                         <div className="mb-6">
-                            <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-700 dark:text-gray-300">
+                            <h3 className="flex items-center font-space-grotesk gap-2 text-xl font-semibold text-gray-700 dark:text-gray-300">
                                 <FaTools /> Tech Stack
                             </h3>
                             <div className="flex flex-wrap gap-2 mt-2">
@@ -61,7 +61,7 @@ export default function ProjectDetails() {
                         {/* Challenges */}
                         {project.challenges && (
                             <div className="mb-6">
-                                <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-700 dark:text-gray-300">
+                                <h3 className="flex items-center gap-2 text-xl font-space-grotesk font-semibold text-gray-700 dark:text-gray-300">
                                     <FaLightbulb /> Challenges
                                 </h3>
                                 <p className="text-gray-600 dark:text-gray-400">{project.challenges}</p>
@@ -71,7 +71,7 @@ export default function ProjectDetails() {
                         {/* Future Plans */}
                         {project.futurePlans && (
                             <div className="mb-8">
-                                <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-700 dark:text-gray-300">
+                                <h3 className="flex items-center gap-2 font-space-grotesk text-xl font-semibold text-gray-700 dark:text-gray-300">
                                     <FaLightbulb /> Future Plans
                                 </h3>
                                 <p className="text-gray-600 dark:text-gray-400">{project.futurePlans}</p>

@@ -1,11 +1,10 @@
 import { FaExternalLinkAlt, FaCode, FaListUl, FaArrowRight } from 'react-icons/fa';
 
 const ProjectCard = () => (
-  <section id="projects" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-    <div className="container mx-auto max-w-6xl px-6 md:px-10">
+  <section id="projects" className="py-10 bg-gray-50 dark:bg-gray-900">
+    <div className="container mx-auto max-w-7xl px-3 sm:px-6 md:px-10">
       <h2
-        className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white"
-        style={{ fontFamily: 'var(--font-space-grotesk)' }}
+        className="text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 text-gray-900 dark:text-white font-space-grotesk"
       >
         Featured Projects
       </h2>
@@ -19,7 +18,7 @@ const ProjectCard = () => (
             className="w-full h-48 object-cover"
           />
           <div className="p-6 flex flex-col flex-1">
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+            <h3 className="text-xl font-semibold mb-2 font-space-grotesk">
               Marathon Management System
             </h3>
             <p className="text-sm flex-1">
@@ -42,7 +41,7 @@ const ProjectCard = () => (
             className="w-full h-48 object-cover"
           />
           <div className="p-6 flex flex-col flex-1">
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+            <h3 className="text-xl font-semibold mb-2 font-space-grotesk">
               Blood Donation Platform
             </h3>
             <p className="text-sm flex-1">
@@ -65,7 +64,7 @@ const ProjectCard = () => (
             className="w-full h-48 object-cover"
           />
           <div className="p-6 flex flex-col flex-1">
-            <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'var(--font-space-grotesk)' }}>
+            <h3 className="text-xl font-semibold mb-2 font-space-grotesk">
               ABZ Innovation Corporate Website
             </h3>
             <p className="text-sm flex-1">
