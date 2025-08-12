@@ -13,16 +13,16 @@ const Footer = () => {
                 </div>
                 <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
                     <li>
-                        <a target='_blank' href="https://linkedin.com/in/sabir07"><FaLinkedinIn /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://linkedin.com/in/sabir07"><FaLinkedinIn /></a>
                     </li>
                     <li>
-                        <a target='_blank' href="https://linkedin.com/mdsabir07"><FaGithub /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://linkedin.com/mdsabir07"><FaGithub /></a>
                     </li>
                     <li>
-                        <a target='_blank' href="https://linkedin.com/@mdsabir07"><FaXTwitter /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://linkedin.com/@mdsabir07"><FaXTwitter /></a>
                     </li>
                     <li>
-                        <a target='_blank' href="https://profiles.wordpress.org/mdsabir07/"><FaWordpress /></a>
+                        <a target='_blank' className='hover:text-primary' href="https://profiles.wordpress.org/mdsabir07/"><FaWordpress /></a>
                     </li>
                 </ul>
             </div>
