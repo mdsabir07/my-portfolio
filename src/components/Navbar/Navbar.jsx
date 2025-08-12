@@ -1,7 +1,8 @@
 import ThemeToggle from '../ThemeToggle/ThemeToggle';
-import Logo from '../../assets/logo.png';
+// import Logo from '../../assets/logo.png';
 import { useState } from 'react';
 import { Link } from 'react-router'; // For routing links (use in-project detail pages)
+import Logo from '../Logo/Logo';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,7 +48,8 @@ const Navbar = () => {
         <header className="p-4">
             <div className="container flex justify-between h-16 mx-auto px-10">
 
-                <Link to="/"><img src={Logo} alt="" className='w-40' /></Link>
+                <Link to="/"><Logo /></Link>
+                {/* <Link to="/"><img src={Logo} alt="" className='w-40' /></Link> */}
                 {/* Desktop Menu */}
                 {navLinksLarge}
                 <button

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import ProfilePhoto from '../../assets/sabirul-islam.jpg'
+import ResumeButton from '../ResumeButton/ResumeButton';
+import SocialLinks from '../SocialLinks/SocialLinks';
 
 const DesignationIntro = () => {
   const [designationIndex, setDesignationIndex] = useState(0);
@@ -22,15 +24,15 @@ const DesignationIntro = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+    <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between  px-10 gap-12">
         {/* Text Content */}
         <div className="md:w-1/2 space-y-6">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl font-bold text-indigo-600"
+            className="text-4xl md:text-5xl font-bold text-primary"
           >
             Hi, I'm <span className="underline decoration-wavy">Sabirul Islam</span>
           </motion.h1>
@@ -72,16 +74,11 @@ const DesignationIntro = () => {
           >
             <a 
               href="#contact" 
-              className="px-6 py-3 rounded-lg font-medium transition-all bg-indigo-100 hover:bg-indigo-200 text-indigo-800 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:text-white"
+              className="px-6 py-3 rounded-lg font-medium transition-all bg-primary hover:bg-secondary text-white"
             >
               Get In Touch
             </a>
-            <a 
-              href="#projects" 
-              className="px-6 py-3 rounded-lg font-medium transition-all bg-transparent border border-indigo-600 hover:bg-indigo-100 text-indigo-700 dark:border-indigo-400 dark:hover:bg-indigo-900/30 dark:text-indigo-400"
-            >
-              View Work
-            </a>
+            <ResumeButton />
           </motion.div>
         </div>
         
@@ -92,12 +89,15 @@ const DesignationIntro = () => {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 flex justify-center"
         >
-          <div className="relative w-md sm:w-lg h-md sm:h-lg object-cover rounded-full overflow-hidden border-4 border-indigo-300 dark:border-indigo-500">
+          <div className="relative w-sm sm:w-md h-sm sm:h-md object-cover rounded-full overflow-hidden border-4 border-indigo-300 dark:border-indigo-500">
             <img src={ProfilePhoto} alt="" />
             {/* Glow effect */}
             <div className="absolute inset-0 rounded-full shadow-[0_0_40px_10px_rgba(99,102,241,0.2)] dark:shadow-[0_0_40px_10px_rgba(99,102,241,0.3)] animate-pulse"></div>
           </div>
         </motion.div>
+      </div>
+      <div className="absolute left-0 top-50">
+        <SocialLinks />
       </div>
     </section>
   );
