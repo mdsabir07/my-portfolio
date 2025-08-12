@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&family=Fira+Code:wght@400&display=swap');
+@import "tailwindcss";
+/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-white text-black;
+}
+
+.dark body {
+  @apply bg-black text-white;
+}
+
+@theme {
+  --font-inter: Inter, sans-serif;
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+  --font-fira-code: "Fira Code", monospace;
+}
+
