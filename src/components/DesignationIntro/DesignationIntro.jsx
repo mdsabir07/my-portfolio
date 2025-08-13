@@ -25,10 +25,13 @@ const DesignationIntro = () => {
   }, []);
 
   return (
-    <section id='intro' className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between max-w-7xl px-3 md:px-10 gap-12">
+    <section 
+    id='intro' 
+    className="h-full xl:min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative"
+    >
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between max-w-7xl px-3 md:px-10 gap-7 pt-10 xl:pt-0 lg:gap-12">
         {/* Text Content */}
-        <div className="md:w-1/2 space-y-6">
+        <div className="md:w-1/2 pt-5 sm:pt-0 space-y-4 sm:space-y-6">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,7 +63,7 @@ const DesignationIntro = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-lg md:text-xl text-gray-700 dark:text-gray-300"
+            className="text-lg lg:text-xl text-gray-700 dark:text-gray-300"
           >
             I craft exceptional digital experiences with clean, efficient code. 
             With expertise across the full stack, I bring ideas to life with 
@@ -75,7 +78,7 @@ const DesignationIntro = () => {
           >
             <a 
               href="#contact" 
-              className="px-2 md:px-6 py-2 md:py-3 rounded-lg font-medium transition-all bg-primary hover:bg-secondary text-white"
+              className="px-2 lg:px-6 py-2 lg:py-3 rounded-lg font-medium transition-all bg-primary hover:bg-secondary text-white"
             >
               Get In Touch
             </a>

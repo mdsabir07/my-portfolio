@@ -1,7 +1,7 @@
 import { FaUniversity, FaSchool, FaBookOpen } from 'react-icons/fa';
 
 const Educations = () => (
-  <section id="educations" className="py-10 bg-white dark:bg-gray-900">
+  <section id="educations" className="pt-10 sm:pt-24 bg-white dark:bg-gray-900">
     <div className="container mx-auto max-w-5xl px-6 md:px-10">
       <h2
         className="text-2xl md:text-4xl font-bold font-space-grotesk text-center mb-8 sm:mb-12 text-gray-900 dark:text-white"
@@ -9,7 +9,7 @@ const Educations = () => (
         Educational <span className="text-blue-600 dark:text-blue-400">Qualification</span>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-800 dark:text-gray-300 font-inter">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 text-gray-800 dark:text-gray-300 font-inter">
         {/* Left Side – Education Details */}
         <div className="space-y-3">
           <h3

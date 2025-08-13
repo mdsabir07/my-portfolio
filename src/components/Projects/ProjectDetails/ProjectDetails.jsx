@@ -24,8 +24,8 @@ export default function ProjectDetails() {
     return (
         <>
             <Navbar />
-            <section className="py-12 sm:py-20 bg-gray-50 dark:bg-gray-900">
-                <div className="container max-w-7xl mx-auto px-4">
+            <section className="py-15 sm:py-20 bg-gray-50 dark:bg-gray-900">
+                <div className="container pt-10 xl:pt-5 max-w-7xl mx-auto px-4">
                     {/* Image */}
                     <div className="mb-8">
                         <img

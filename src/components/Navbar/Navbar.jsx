@@ -31,7 +31,7 @@ const Navbar = () => {
     ];
 
     const navLinksLarge = <>
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
             {navLinks.map(({ name, href }) => (
                 <a key={name} href={href} className="hover:text-primary">
                     {name}
@@ -42,7 +42,7 @@ const Navbar = () => {
         </nav>
     </>
     const navLinksSmall = <>
-        <nav className="md:hidden px-4 pt-2 pb-4 space-y-2 shadow-xl rounded-md bg-white dark:bg-gray-900">
+        <nav className="lg:hidden px-4 pt-2 pb-4 space-y-2 shadow-xl rounded-md bg-white dark:bg-gray-900">
             {navLinks.map(({ name, href }) => (
                 <a
                     key={name}
@@ -62,13 +62,13 @@ const Navbar = () => {
             className={`fixed top-0 left-0 right-0 py-2 z-50 transition-colors duration-300 ${scrolled ? "bg-white shadow-md dark:bg-gray-900" : "bg-transparent"
                 }`}
         >
-            <div className="container flex justify-between h-20 mx-auto max-w-7xl px-3 md:px-10">
-                <Link to="/"><img src={Logo} alt="" className='w-36' /></Link>
+            <div className="container flex justify-between items-center h-20 mx-auto max-w-7xl px-3 md:px-10">
+                <Link to="/"><img src={Logo} alt="" className='w-30 xl:w-36' /></Link>
                 {/* Desktop Menu */}
                 {navLinksLarge}
                 <button
                     onClick={toggleMenu}
-                    className="md:hidden focus:outline-none"
+                    className="lg:hidden focus:outline-none"
                     aria-label="Toggle Menu"
                 >
                     <svg

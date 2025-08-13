@@ -27,7 +27,7 @@ const ResumeButton = () => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       className={`
-        flex items-center gap-2 px-2 md:px-6 py-2 md:py-3 rounded-lg font-medium border border-primary text-gray-900 hover:bg-primary
+        flex items-center gap-2 px-2 lg:px-6 py-2 lg:py-3 rounded-lg font-medium border border-primary text-gray-900 hover:bg-primary
         dark:text-white shadow-lg shadow-blue-500/20
         dark:shadow-blue-900/30
         transition-all duration-300

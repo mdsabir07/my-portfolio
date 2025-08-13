@@ -1,7 +1,7 @@
 import { FaExternalLinkAlt, FaCode, FaListUl, FaArrowRight } from 'react-icons/fa';
 
 const ProjectCard = () => (
-  <section id="projects" className="py-10 bg-gray-50 dark:bg-gray-900">
+  <section id="projects" className="pt-10 sm:pt-24 bg-gray-50 dark:bg-gray-900">
     <div className="container mx-auto max-w-7xl px-3 sm:px-6 md:px-10">
       <h2
         className="text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 text-gray-900 dark:text-white font-space-grotesk"
@@ -9,7 +9,7 @@ const ProjectCard = () => (
         Featured <span className="text-blue-600 dark:text-blue-400">Projects</span>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-gray-800 dark:text-gray-300 font-inter">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-10 text-gray-800 dark:text-gray-300 font-inter">
         {/* Project 1 */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden flex flex-col">
           <img
@@ -26,7 +26,7 @@ const ProjectCard = () => (
             </p>
             <a
               href="/projects/marathon-management-system"
-              className="mt-4 inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
+              className="mt-4 inline-flex items-center text-sm lg:text-base gap-2 text-blue-600 dark:text-blue-400 hover:underline"
             >
               View More / Details <FaArrowRight />
             </a>
@@ -49,7 +49,7 @@ const ProjectCard = () => (
             </p>
             <a
               href="/projects/blood-donation-platform"
-              className="mt-4 inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
+              className="mt-4 inline-flex items-center text-sm lg:text-base gap-2 text-blue-600 dark:text-blue-400 hover:underline"
             >
               View More / Details <FaArrowRight />
             </a>
@@ -72,7 +72,7 @@ const ProjectCard = () => (
             </p>
             <a
               href="/projects/abz-innovation"
-              className="mt-4 inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
+              className="mt-4 inline-flex items-center text-sm lg:text-base gap-2 text-blue-600 dark:text-blue-400 hover:underline"
             >
               View More / Details <FaArrowRight />
             </a>

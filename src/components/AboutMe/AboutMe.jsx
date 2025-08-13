@@ -3,7 +3,7 @@ import { FiCode, FiGlobe, FiBook, FiCpu, FiActivity } from 'react-icons/fi';
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-8 bg-white dark:bg-gray-900">
+    <section id="about" className="pt-10 sm:pt-24 bg-white dark:bg-gray-900">
       <div className="container mx-auto max-w-7xl px-3 md:px-10">
         {/* Section Title */}
         <motion.h2
@@ -23,10 +23,10 @@ const AboutMe = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="md:w-1/2 space-y-6 text-gray-700 dark:text-gray-300 text-base md:text-lg font-inter"
+            className="md:w-1/2 space-y-6 text-gray-700 dark:text-gray-300 text-base lg:text-lg font-inter"
           >
             <p>
-              <FiCode className="inline mr-2 text-blue-600 dark:text-blue-400" />
+              <FiCode className="inline mr-2 text-xl text-blue-600 dark:text-blue-400" />
               <strong>I'm Sabirul Islam</strong>, a Full Stack Developer with <span className="text-blue-600 dark:text-blue-400">6+ years</span> of experience building modern web applications.
             </p>
 
@@ -36,22 +36,22 @@ const AboutMe = () => {
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <FiCpu className="mt-1 text-blue-600 dark:text-blue-400" />
+                <FiCpu className="mt-1 text-xl text-blue-600 dark:text-blue-400" />
                 <p><strong>Philosophy:</strong> Build scalable, maintainable, and elegant solutions.</p>
               </div>
 
               <div className="flex items-start gap-3">
-                <FiGlobe className="mt-1 text-blue-600 dark:text-blue-400" />
+                <FiGlobe className="mt-1 text-xl text-blue-600 dark:text-blue-400" />
                 <p><strong>Beyond code:</strong> I travel for perspective and capture moments through photography.</p>
               </div>
 
               <div className="flex items-start gap-3">
-                <FiBook className="mt-1 text-blue-600 dark:text-blue-400" />
+                <FiBook className="mt-1 text-xl text-blue-600 dark:text-blue-400" />
                 <p><strong>Hobbies:</strong> Sci-fi, cricket debates, and strategy games.</p>
               </div>
 
               <div className="flex items-start gap-3">
-                <FiActivity className="mt-1 text-blue-600 dark:text-blue-400" />
+                <FiActivity className="mt-1 text-xl text-blue-600 dark:text-blue-400" />
                 <p><strong>Fun fact:</strong> My most productive hours? Midnight with tea and LoFi.</p>
               </div>
             </div>

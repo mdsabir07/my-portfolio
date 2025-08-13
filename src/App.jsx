@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="pt-20 sm:pt-30">
+      <main className="pt-20 sm:pt-24">
         <DesignationIntro />
         <AboutMe />
         <Skills />
