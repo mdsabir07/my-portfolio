@@ -1,7 +1,5 @@
 <!-- Cover Image -->
-<p align="center">
-  <img src="assets/sabir-portfolio.png" alt="Cover Image" />
-</p>
+![My Portfolio Banner](.github/sabir-portfolio.png)
 
 <h1 align="center">👋 Hi, I'm Sabir – Front-End Developer</h1>
 
