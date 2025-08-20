@@ -4,21 +4,22 @@ import { FiDownload } from 'react-icons/fi';
 const ResumeButton = () => {
   const handleDownload = () => {
     // Replace with your actual resume URL
-    const resumeUrl = '/resume-sabirul-islam.pdf';
+    const resumeUrl = 'https://drive.google.com/file/d/150YHsPLDlQ3NosiUXGxaUmLK8e1H0YdA/view?usp=sharing';
     
     // For demo purposes - remove this in production
     if (!resumeUrl) {
       alert("Resume is coming soon! Currently in final edits.");
       return;
     }
+    window.open(resumeUrl, '_blank');
 
     // Create temporary anchor tag for download
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Sabirul-Islam-Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const link = document.createElement('a');
+    // link.href = resumeUrl;
+    // link.download = 'Sabirul_Islam_Resume.pdf';
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
   };
 
   return (
