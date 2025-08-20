@@ -4,7 +4,7 @@ import { FiDownload } from 'react-icons/fi';
 const ResumeButton = () => {
   const handleDownload = () => {
     // Replace with your actual resume URL
-    const resumeUrl = 'https://drive.google.com/file/d/150YHsPLDlQ3NosiUXGxaUmLK8e1H0YdA/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/11MYr1WmhGhsXcB1tg3A27_75Qvd93t3u/view?usp=sharing';
     
     // For demo purposes - remove this in production
     if (!resumeUrl) {
