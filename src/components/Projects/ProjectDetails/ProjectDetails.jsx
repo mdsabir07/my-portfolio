@@ -85,7 +85,7 @@ export default function ProjectDetails() {
                                     href={project.liveLink}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+                                    className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700"
                                 >
                                     Live Project <FaExternalLinkAlt />
                                 </a>

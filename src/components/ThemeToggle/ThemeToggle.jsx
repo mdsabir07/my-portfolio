@@ -50,9 +50,14 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={() => setIsDark(prev => !prev)}
-      className="px-2 py-1 cursor-pointer border rounded text-sm dark:bg-gray-800 dark:text-white bg-gray-200 text-black"
+      className="p-2 cursor-pointer text-xl"
     >
-      {isDark ? '☀️ Light' : '🌙 Dark'}
+      {isDark === "dark" ? (
+        <span title="Switch to dark mode">☀️</span>
+      ) : (
+        <span title="Switch to light mode">🌙</span>
+      )}
+      {/* {isDark ? '☀️ Light' : '🌙 Dark'} */}
     </button>
   );
 };

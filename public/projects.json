@@ -7,13 +7,14 @@
         "techStack": [
             "React",
             "Firebase",
+            "MongoDB",
             "Tailwind CSS"
         ],
-        "description": "A platform for managing marathon events, including participant registration, race tracking, and results publishing.",
+        "description": "The Marathon Management System is a web platform built to streamline the process of organizing marathon events. It enables participants to register, track their race progress, and view results in real time. The platform features an admin dashboard for event management, real-time database updates through Firebase, and a fully responsive UI developed with React and Tailwind CSS. Designed to simplify event logistics, it ensures organizers and runners stay connected through a modern and efficient interface.",
         "liveLink": "https://assign11-marathon.web.app/",
         "githubLink": "https://github.com/mdsabir07/marathon-management-system",
-        "challenges": "Implementing real-time data sync and authentication with Firebase while maintaining responsive UI across devices.",
-        "futurePlans": "Add admin dashboards with analytics and enhance user profiles with more race statistics."
+        "challenges": "Implementing real-time synchronization of participant data with Firebase and managing multiple event states while maintaining a responsive, bug-free interface across devices.",
+        "futurePlans": "Expand analytics for event performance, add live leaderboard updates, and integrate payment options for event registration."
     },
     {
         "id": 2,
@@ -22,14 +23,15 @@
         "detailsUrl": "/projects/blood-donation-platform",
         "techStack": [
             "React",
+            "MongoDB",
             "Firebase",
-            "Bootstrap"
+            "Tailwind CSS"
         ],
-        "description": "A platform that connects blood donors and recipients, allowing users to request or offer blood donations.",
+        "description": "The Blood Donation Platform is a community-driven application that connects blood donors and recipients in real time. Built using React and Firebase, it allows users to register as donors, search for available donors by blood type and location, and send urgent blood requests. The platform features a simple yet impactful interface powered by Bootstrap, ensuring accessibility and quick navigation during emergencies. The goal is to bridge the gap between donors and those in need, enhancing community responsiveness and saving lives through technology.",
         "liveLink": "https://blood-donate-49988.web.app/",
-        "githubLink": null,
-        "challenges": "Ensuring quick search functionality for available donors based on blood type and location.",
-        "futurePlans": "Integrate geolocation and automated notifications for urgent blood needs."
+        "githubLink": "https://github.com/mdsabir07/blood-donation-management",
+        "challenges": "Developing an efficient search and filter system for matching donors based on location and blood type while ensuring real-time updates and secure data handling.",
+        "futurePlans": "Integrate geolocation for nearby donor detection, enable automated notifications for urgent blood needs, and create a reward system to encourage repeat donations."
     },
     {
         "id": 3,
@@ -39,12 +41,31 @@
         "techStack": [
             "WordPress",
             "Elementor",
-            "Custom Theme Development"
+            "Custom Theme & Plugin Development"
         ],
-        "description": "A professional corporate website showcasing ABZ Innovation's services, portfolio, and contact options.",
+        "description": "ABZ Innovation is a professional corporate website designed to highlight the company’s expertise in drone technology for agriculture, logistics, and industrial applications. Built with WordPress and Elementor, it features a custom theme optimized for performance, SEO, and mobile responsiveness. The site includes dynamic service pages, a project portfolio, and an inquiry form for business leads. Its clean and scalable design reflects ABZ Innovation’s cutting-edge approach to automation and aerial solutions.",
         "liveLink": "https://abzinnovation.com/",
-        "githubLink": null,
-        "challenges": "Maintaining high performance and SEO optimization while implementing a fully customized WordPress theme.",
-        "futurePlans": "Add a blog section and integrate a CRM for client inquiries."
+        "githubLink": "https://github.com/mdsabir07/ABZ-Innovation",
+        "challenges": "Maintaining high performance and SEO optimization while developing a fully customized WordPress theme integrated with Elementor widgets and dynamic content.",
+        "futurePlans": "Add a blog section with industry updates, integrate a CRM system for client inquiries, and support multilingual functionality for international reach."
+    },
+    {
+        "id": 4,
+        "name": "RemoteNest - A Platform for Digital Nomads",
+        "image": "/remotenest-banner.png",
+        "detailsUrl": "/projects/remotenest",
+        "techStack": [
+            "Next.js",
+            "NextAuth",
+            "MongoDB",
+            "Mongoose",
+            "Tailwind CSS",
+            "Framer Motion"
+        ],
+        "description": "RemoteNest is a modern full-stack booking platform built for digital nomads to explore and reserve remote-friendly accommodations across global cities. The platform offers secure authentication via NextAuth, allowing users and admins to manage bookings, cities, and blog posts dynamically. It features city listings, blog content, and user dashboards — all seamlessly integrated through MongoDB and Mongoose for data consistency. With Tailwind CSS and Framer Motion, the UI is fast, responsive, and visually engaging, creating a smooth user experience that blends design with functionality. RemoteNest is designed to empower remote workers to discover, connect, and live anywhere comfortably.",
+        "liveLink": "https://remotenest.vercel.app/",
+        "githubLink": "https://github.com/mdsabir07/remotenest_frontend",
+        "challenges": "Implementing secure authentication with NextAuth, structuring role-based access for users and admins, and designing a flexible booking workflow integrated with a dynamic content management system.",
+        "futurePlans": "Integrate Stripe for seamless payment processing, implement AI chatbot support for instant assistance, and introduce personalized recommendations for cities and stays."
     }
 ]

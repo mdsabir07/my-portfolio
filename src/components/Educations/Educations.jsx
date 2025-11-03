@@ -4,9 +4,9 @@ const Educations = () => (
   <section id="educations" className="pt-10 sm:pt-24 bg-white dark:bg-gray-900">
     <div className="container mx-auto max-w-5xl px-6 md:px-10">
       <h2
-        className="text-2xl md:text-4xl font-bold font-space-grotesk text-center mb-8 sm:mb-12 text-gray-900 dark:text-white"
+        className="text-3xl md:text-4xl font-bold font-space-grotesk text-center mb-8 sm:mb-12 text-gray-900 dark:text-white"
       >
-        Educational <span className="text-blue-600 dark:text-blue-400">Qualification</span>
+        Educational <span className="text-primary dark:text-blue-400">Qualification</span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 text-gray-800 dark:text-gray-300 font-inter">
@@ -19,7 +19,7 @@ const Educations = () => (
           </h3>
 
           <div className="flex items-center gap-3">
-            <FaBookOpen className="text-blue-600 dark:text-blue-400" />
+            <FaBookOpen className="text-primary dark:text-blue-400" />
             <p className="text-sm">Faculty of Economics</p>
           </div>
 

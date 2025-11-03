@@ -1,31 +1,37 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedinIn, FaWordpress } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
+import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
 
 const SocialLinks = () => {
     const socialProfiles = [
         {
             name: 'GitHub',
-            url: 'https://github.com/mdsabir07',
+            url: '//github.com/mdsabir07',
             icon: <FaGithub className="icon-sm" />,
             color: 'hover:text-gray-800 dark:hover:text-gray-200'
         },
         {
             name: 'LinkedIn',
-            url: 'https://linkedin.com/in/sabir07',
+            url: '//linkedin.com/in/sabir07',
             icon: <FaLinkedinIn className="icon-sm" />,
             color: 'hover:text-blue-600 dark:hover:text-blue-400'
         },
         {
             name: 'Twitter',
-            url: 'https://twitter.com/@mdsabir07',
+            url: '//twitter.com/@mdsabir07',
             icon: <FaXTwitter className="icon-sm" />,
             color: 'hover:text-sky-500 dark:hover:text-sky-400'
         },
         {
             name: 'WordPress',
-            url: 'https://profiles.wordpress.org/mdsabir07/',
+            url: '//profiles.wordpress.org/mdsabir07/',
             icon: <FaWordpress className="icon-sm" />,
+            color: 'hover:text-blue-700 dark:hover:text-blue-500'
+        },
+        {
+            name: 'Facebook',
+            url: '//web.facebook.com/sabirul.islam1/',
+            icon: <FaFacebook className="icon-sm" />,
             color: 'hover:text-blue-700 dark:hover:text-blue-500'
         }
     ];
@@ -44,7 +50,7 @@ const SocialLinks = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.1, duration: 0.3 }}
                     whileHover={{ y: -3 }}
-                    
+
                     className={`
             flex items-center gap-2 px-3 py-3 rounded-lg
             bg-gray-100 dark:bg-gray-800

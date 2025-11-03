@@ -6,7 +6,7 @@ export default function ContactInfo() {
             <div className="container mx-auto px-3 max-w-3xl text-center">
                 {/* Heading */}
                 <h2 className="text-3xl font-bold font-space-grotesk text-gray-800 dark:text-white mb-6">
-                    Get in <span className="text-blue-600 dark:text-blue-400">Touch</span>
+                    Get in <span className="text-primary dark:text-blue-400">Touch</span>
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 mb-8">
                     I’d love to hear from you! Feel free to reach out for any questions,
@@ -20,7 +20,7 @@ export default function ContactInfo() {
                         href="mailto:sabirdev07@gmail.com"
                         className="flex items-center gap-3 bg-white dark:bg-gray-800 shadow px-2 lg:px-6 py-2 lg:py-3 rounded-lg hover:shadow-md transition"
                     >
-                        <FaEnvelope className="text-blue-600 text-xl" />
+                        <FaEnvelope className="text-primary text-xl" />
                         <span className="text-gray-700 dark:text-gray-300">
                             sabirdev07@gmail.com
                         </span>
