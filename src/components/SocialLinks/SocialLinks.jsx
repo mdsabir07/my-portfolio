@@ -12,7 +12,7 @@ const SocialLinks = () => {
         },
         {
             name: 'LinkedIn',
-            url: '//linkedin.com/in/sabir07',
+            url: 'https://linkedin.com/in/sabir07',
             icon: <FaLinkedinIn className="icon-sm" />,
             color: 'hover:text-blue-600 dark:hover:text-blue-400'
         },
