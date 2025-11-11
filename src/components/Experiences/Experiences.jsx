@@ -47,7 +47,7 @@ const Experiences = () => (
 
           <div className="flex flex-wrap gap-3 items-center text-sm text-gray-600 dark:text-gray-400">
             <a
-              href="#"
+              href="//fiverr.com/wd_com_3"
               title="Fiverr - Global Freelance Marketplace"
               className="flex items-center gap-1 hover:underline"
               target="_blank"
@@ -57,7 +57,7 @@ const Experiences = () => (
             </a>
 
             <a
-              href="#"
+              href="//pph.me/sabiruli"
               title="PeoplePerHour - Freelance Marketplace"
               className="flex items-center gap-1 hover:underline"
               target="_blank"
@@ -67,7 +67,7 @@ const Experiences = () => (
             </a>
 
             <a
-              href="#"
+              href="//upwork.com/o/profiles/users/~010424d8751b7807dc/"
               title="Upwork - Freelance Marketplace"
               className="flex items-center gap-1 hover:underline"
               target="_blank"
@@ -76,7 +76,7 @@ const Experiences = () => (
               <SiUpwork className="text-[#6fda44] text-lg" /> Since 2020
             </a>
 
-            <a
+            {/* <a
               href="#"
               title="Freelancer - Global Freelance Platform"
               className="flex items-center gap-1 hover:underline"
@@ -84,7 +84,7 @@ const Experiences = () => (
               rel="noopener noreferrer"
             >
               <SiFreelancer className="text-blue-500 text-lg" /> Outside Platforms
-            </a>
+            </a> */}
           </div>
 
           <p className="text-sm mt-2">
