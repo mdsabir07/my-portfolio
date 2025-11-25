@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedinIn, FaWordpress } from 'react-icons/fa';
-import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
+import { FaFacebook, FaStackOverflow, FaXTwitter } from 'react-icons/fa6';
 
 const SocialLinks = () => {
     const socialProfiles = [
@@ -26,6 +26,12 @@ const SocialLinks = () => {
             name: 'WordPress',
             url: '//profiles.wordpress.org/mdsabir07/',
             icon: <FaWordpress className="icon-sm" />,
+            color: 'hover:text-blue-700 dark:hover:text-blue-500'
+        },
+        {
+            name: 'StackOverFlow',
+            url: '//stackoverflow.com/users/8124426/sabir',
+            icon: <FaStackOverflow className="icon-sm" />,
             color: 'hover:text-blue-700 dark:hover:text-blue-500'
         },
         {
