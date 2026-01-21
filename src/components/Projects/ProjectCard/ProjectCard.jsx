@@ -103,7 +103,7 @@ const ProjectCard = () => (
       </div>
       <div className="text-center py-10">
         <a
-          href="//sabir.coderdevsbd.com/portfolio/"
+          href="//sabir.coderdevsbd.com/portfolios/"
           nofollow="true"
           target="_blank"
           rel="noreferrer"
