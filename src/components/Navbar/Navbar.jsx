@@ -64,12 +64,12 @@ const Navbar = () => {
                 }`}
         >
             <div className="container flex justify-between items-center h-16 mx-auto max-w-7xl px-3 md:px-10">
-                <Link to="/"><img src={Logo} alt="" className='w-30 xl:w-50' /></Link>
+                <Link to="/"><img src={Logo} alt="Sabir portfolio" className='w-30 xl:w-50' /></Link>
                 {/* Desktop Menu */}
                 {navLinksLarge}
                 <button
                     onClick={toggleMenu}
-                    className="lg:hidden focus:outline-none"
+                    className="lg:hidden focus:outline-none cursor-pointer"
                     aria-label="Toggle Menu"
                 >
                     <svg
