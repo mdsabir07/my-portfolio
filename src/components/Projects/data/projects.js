@@ -4,7 +4,7 @@ const projects = [
         title: "RemoteNest - A Platform for Digital Nomads",
         description:
             "RemoteNest is designed to empower remote workers to discover, connect, and live anywhere comfortably.",
-        image: "/remotenest-banner.png",
+        image: "/remotenest-banner.webp",
         link: "/projects/remotenest",
     },
     {
@@ -12,7 +12,7 @@ const projects = [
         title: "Marathon Management System",
         description:
             "A platform for managing marathon events, participant registration, and race tracking.",
-        image: "/marathon.png",
+        image: "/marathon.webp",
         link: "/projects/marathon-management-system",
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         title: "Blood Donation Platform",
         description:
             "Connects donors and recipients, allowing quick blood requests and offers.",
-        image: "/blood-donate.png",
+        image: "/blood-donate.webp",
         link: "/projects/blood-donation-platform",
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         title: "ABZ Innovation Corporate Website",
         description:
             "Professional corporate site built in WordPress for ABZ Innovation’s services & portfolio.",
-        image: "/abz-inovation.png",
+        image: "/abz-inovation.webp",
         link: "/projects/abz-innovation",
     },
     {

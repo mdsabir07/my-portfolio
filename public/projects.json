@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Marathon Management System",
-        "image": "/marathon.png",
+        "image": "/marathon.webp",
         "detailsUrl": "/projects/marathon-management-system",
         "techStack": [
             "React",
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "name": "Blood Donation Platform",
-        "image": "/blood-donate.png",
+        "image": "/blood-donate.webp",
         "detailsUrl": "/projects/blood-donation-platform",
         "techStack": [
             "React",
@@ -36,7 +36,7 @@
     {
         "id": 3,
         "name": "ABZ Innovation Corporate Website",
-        "image": "/abz-inovation.png",
+        "image": "/abz-inovation.webp",
         "detailsUrl": "/projects/abz-innovation",
         "techStack": [
             "WordPress",
@@ -52,7 +52,7 @@
     {
         "id": 4,
         "name": "RemoteNest - A Platform for Digital Nomads",
-        "image": "/remotenest-banner.png",
+        "image": "/remotenest-banner.webp",
         "detailsUrl": "/projects/remotenest",
         "techStack": [
             "Next.js",

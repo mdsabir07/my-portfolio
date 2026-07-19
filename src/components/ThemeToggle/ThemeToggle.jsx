@@ -52,7 +52,7 @@ const ThemeToggle = () => {
       onClick={() => setIsDark(prev => !prev)}
       className="p-2 cursor-pointer text-xl"
     >
-      {isDark === "dark" ? (
+      {isDark ? (
         <span title="Switch to dark mode">☀️</span>
       ) : (
         <span title="Switch to light mode">🌙</span>
