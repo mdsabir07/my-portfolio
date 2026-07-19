@@ -31,6 +31,8 @@ export default function ProjectDetails() {
                         <img
                             src={project.image}
                             alt={project.name}
+                            loading="lazy"
+                            decoding="async"
                             className="w-full mx-auto rounded-lg shadow-lg hover:scale-105 transition-transform"
                         />
                     </div>

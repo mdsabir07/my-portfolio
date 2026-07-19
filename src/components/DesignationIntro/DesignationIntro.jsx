@@ -95,7 +95,11 @@ const DesignationIntro = () => {
           className="md:w-1/2 flex justify-center"
         >
           <div className="relative w-xs sm:w-md h-xs sm:h-md object-cover rounded-full overflow-hidden border-4 border-indigo-300 dark:border-indigo-500">
-            <img src={ProfilePhoto} alt="" />
+            <img
+              src={ProfilePhoto} alt="Sabirul Islam"
+              loading="lazy"
+              decoding="async"
+            />
             {/* Glow effect */}
             <div className="absolute inset-0 rounded-full shadow-[0_0_40px_10px_rgba(99,102,241,0.2)] dark:shadow-[0_0_40px_10px_rgba(99,102,241,0.3)] animate-pulse"></div>
           </div>
