@@ -5,8 +5,8 @@ import AboutMe from "./components/AboutMe/AboutMe"
 import DesignationIntro from "./components/DesignationIntro/DesignationIntro"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
-import ProjectCard from "./components/Projects/ProjectCard/ProjectCard"
 import ContactInfo from "./components/ContactInfo/ContactInfo"
+import ProjectCarousel from "./components/Projects/ProjectCard/ProjectCarousel"
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         <Skills />
         <Educations />
         <Experiences />
-        <ProjectCard />
+        <ProjectCarousel />
         <ContactInfo />
       </main>
       <Footer />

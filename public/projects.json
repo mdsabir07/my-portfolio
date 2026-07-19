@@ -67,5 +67,28 @@
         "githubLink": "https://github.com/mdsabir07/remotenest_frontend",
         "challenges": "Implementing secure authentication with NextAuth, structuring role-based access for users and admins, and designing a flexible booking workflow integrated with a dynamic content management system.",
         "futurePlans": "Integrate Stripe for seamless payment processing, implement AI chatbot support for instant assistance, and introduce personalized recommendations for cities and stays."
+    },
+    {
+        "id": 5,
+        "name": "DishMarket - Multi-Vendor Food Marketplace",
+        "image": "/dishmarket.webp",
+        "detailsUrl": "/projects/dishmarket",
+        "techStack": [
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "Express.js",
+            "PostgreSQL",
+            "Prisma ORM",
+            "Better Auth",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Lucide React"
+        ],
+        "description": "DishMarket is a modern full-stack multi-vendor food marketplace built with Next.js and TypeScript. The platform enables users to discover restaurants, browse food menus, manage shopping carts, and place orders through a fast and responsive interface. It uses PostgreSQL with Prisma ORM for reliable relational data management and Better Auth for secure authentication and session handling. Designed with the Next.js App Router, Server Components, and Suspense boundaries, DishMarket delivers excellent performance and a seamless user experience. Tailwind CSS, Framer Motion, and Lucide React provide a clean, interactive, and responsive UI for customers and vendors alike.",
+        "liveLink": "https://dishmarket-psi.vercel.app/",
+        "githubLink": "https://github.com/mdsabir07/foodhub-frontend",
+        "challenges": "Designing a scalable relational database with Prisma, implementing secure authentication using Better Auth, integrating Next.js App Router with Server and Client Components, and maintaining a smooth user experience while managing complex application state across the marketplace.",
+        "futurePlans": "Implement secure online payment integration, introduce real-time order tracking and notifications, add customer reviews and restaurant ratings, enhance search with advanced filtering, and develop comprehensive analytics dashboards for vendors and administrators."
     }
 ]
