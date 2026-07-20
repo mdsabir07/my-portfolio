@@ -30,7 +30,7 @@ const ProjectCarousel = () => {
                     navigation
                     // pagination={{ clickable: true }}
                     pagination={false}
-                    autoplay={{ delay: 4000, disableOnInteraction: false }}
+                    autoplay={{ delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true }}
                     breakpoints={{
                         640: { slidesPerView: 1 },
                         768: { slidesPerView: 2, spaceBetween: 25 },
@@ -39,7 +39,7 @@ const ProjectCarousel = () => {
                     className="pb-12"
                 >
                     {projects.map((project) => (
-                        <SwiperSlide key={project.id}>
+                        <SwiperSlide key={project.id} className="mb-4 sm:mb-10">
                             <ProjectCard project={project} />
                         </SwiperSlide>
                     ))}
